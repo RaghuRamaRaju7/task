@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="example.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css">
+    <title>Movie Website</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_netflix">
+                <img src="images/logo.png" alt="This is Netflix logo" class="netflix_logo">
+            </div>
+            <div class="navbar_nav_items">    
+                <div class="nav_items">
+                    <div class="dropdown_container">
+                        <i class='bx bx-globe'></i> 
+                        <select name="language" id="languageSelect" class="language_drop_down">
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="nav_item">
+                    <button class="signin_button">Sign In</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero_bg_img_cont">
+                <img src="https://assets.nflxext.com/ffe/siteui/vlv3/4d2c5849-b306-4884-9036-6211f7ee0178/web/IN-en-20240930-TRIFECTA-perspective_1e1ca6cd-9e2d-4e9d-9e4b-ba0c2d3a0e31_large.jpg" alt="Netflix main section bg" class="hero_bg_img">
+            </div>
+            <div class="hero_bg_overlay"></div>
+            <div class="hero_card">
+                <h1 class="hero_title">Unlimited movies,<br>TV shows and more</h1>
+                <h2 class="hero_subtitle">Starts at ₹149. Cancel at any time.</h2>
+                <p class="hero_desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="hero_input">
+                    <input type="email" placeholder="Email Address" class="email" required>
+                    <button class="get_started">Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_content">
+            <p>&copy; 2024 Movie Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
